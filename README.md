@@ -20,8 +20,8 @@ End the program.
 ## PROGRAM:
 ```
 #To write a python program for reading content from a CSV file.
-#Developed by: ASHWINA KN
-#Register Number: 212223230025
+#Developed by: LAVANYA S
+#Register Number: 212223230112
 
 import pandas as pd
 df = pd.read_csv('nba.csv')
