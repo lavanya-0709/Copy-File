@@ -19,20 +19,19 @@ Increase the maximum number of rows to display the entire DataFrame
 End the program.
 ## PROGRAM:
 ```
-#To write a python program for reading content from a CSV file.
-#Developed by: LAVANYA S
-#Register Number: 212223230112
-
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
+#Developed by:LAVANYA S
+#Register number:212223230112
+def copy(fname,newfile):
+    with open(fname) as fp:
+        with open(newfile,'w') as fp1:
+            data=fp.read()
+            fp1.write(data)
+copy("textfile1.txt","textfile2.txt")
+    
 ```
 ### OUTPUT:
-![alt text](image.png)
-
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
